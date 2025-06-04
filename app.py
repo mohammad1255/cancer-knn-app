@@ -31,6 +31,8 @@ def preprocess_and_extract_feature(image, feature_extractor, scaler):
 st.set_page_config(page_title="Breast Cancer Classifier", layout="centered")
 
 st.title("🔬 Breast Cancer Classifier (EfficientNet + KNN)")
+st.write("إعداد الطالب تميم أبو الشملات")
+st.write("إشراف الدكتور المهندس رداد الكنج")
 st.write("Upload a mammogram image and get a prediction.")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
